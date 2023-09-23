@@ -5,6 +5,7 @@ import LegendComp from './components/LegendComp';
 import Login from './components/Login';
 import Tree from './components/Tree';
 import LegendStateModal from './components/ShowModal';
+import DocsExample from './docEx';
 
 export default function Home() {
   return (
@@ -21,7 +22,9 @@ export default function Home() {
         <Login />
       </div> */}
       {/* <Tree /> */}
-      <LegendStateModal />
+      {/* <LegendStateModal /> */}
+
+      <DocsExample />
     </main>
   )
 }
