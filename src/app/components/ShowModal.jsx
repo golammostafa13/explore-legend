@@ -1,4 +1,4 @@
-import {Computed, Show, useComputed, useObservable} from '@legendapp/state/react'
+import {Computed, Show, useObservable} from '@legendapp/state/react'
 import { useInterval } from '../utils/hooks'
 
 function LegendStateModal() {
