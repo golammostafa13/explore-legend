@@ -71,8 +71,8 @@ const TodoList = observer(function Component() {
         Add Todo
       </button>
       <ul>
-        {todos.map((todo, index) => (
-          <li key={index} className="flex w-72 justify-between py-1">
+        {todos.map((todo) => (
+          <li key={todo.name} className="flex w-72 justify-between py-1">
             {todo?.name}{" "}
             <span
               onClick={() => deleteTodo(todo?.id)}
